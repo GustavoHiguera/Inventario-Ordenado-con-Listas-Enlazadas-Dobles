@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inventario Ordenado con Listas Enlazadas Dobles</title>
+    </head>
+
+    <body>
+        <h1>Grupo de Productos</h1>
+        <div class="content-info">
+            <form>
+                <div>
+                    <label for= 'txtCode'>Código</label>
+                    <input type= 'number'id= 'txtCode'>
+                </div>
+                <div>
+                    <label for='txtName'>Nombre:</label>
+                    <input type='text' id='txtName'>
+                </div>
+                <div>
+                    <label for= 'txtAmount'>Cantidad</label>
+                    <input type= 'number'id= 'txtAmount'>
+                </div>
+                <div>
+                    <label for= 'txtCost'>Costo</label>
+                    <input type= 'number'id= 'txtCost'>
+                </div>
+                <div>
+                    <button type='button' id='btnAdd'>Agregar</button>
+                    <button type='button' id='btnDelete'>Eliminar</button>
+                    <button type='button' id='btnSearch'>Buscar</button>
+                    <button type='button' id='btnList'>Listar</button>
+                    <button type='button' id='btnInverseList'>Listar Inverso</button>
+                </div>
+            </form>
+        </div>
+        <div>
+            <div id='details'></div>
+        </div>
+
+        <script src='app.js' type='module'></script>
+    </body>
+</html>
